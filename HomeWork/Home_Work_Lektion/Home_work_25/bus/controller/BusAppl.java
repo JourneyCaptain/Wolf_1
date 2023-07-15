@@ -1,6 +1,5 @@
 package Home_work_25.bus.controller;
-
-import bus.model.Bus;
+import Home_work_25.bus.model.Bus;
 
 public class BusAppl {
     public static void main(String[] args) {
