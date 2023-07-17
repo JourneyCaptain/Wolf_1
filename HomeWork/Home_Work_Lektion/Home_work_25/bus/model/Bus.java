@@ -50,11 +50,12 @@ public class Bus {
           this.routeLength = routeLength;
 
      }
-     public void go () {
-          System.out.println("Bus number " + routeNumber + " started on the route.");
+     public void go (int goSpeed) {
+
+          System.out.println("Bus number " + routeNumber + " started on the route " + goSpeed + " km/h." );
      }
-     public void stop () {
-          System.out.println("Bus number " + routeNumber + " stopped." );
+     public void stop (int stopSpeed) {
+          System.out.println("Bus number " + routeNumber + " stopped " + stopSpeed + " km/h." );
      }
      public void speedUp (int maxSpeed){
            routeSpeed = routeSpeed + maxSpeed;

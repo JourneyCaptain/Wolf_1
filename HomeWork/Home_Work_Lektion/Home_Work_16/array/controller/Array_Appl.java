@@ -1,6 +1,6 @@
 package Home_Work_16.array.controller;
 
-import array.model.Array;
+import Home_Work_16. array.model.Array;
 
 public class Array_Appl {
     public static void main(String[] args) {
