@@ -1,0 +1,38 @@
+
+
+  Примеры абстрактных классов и их методов:
+
+
+Пример 1
+
+public abstract class Language{ String locale; String groupe;
+
+abstract void methodSetLanguage{ } }
+
+Пример 2
+
+abstract class Human { String sex; String race; String гражданство;
+
+}
+
+Пример 3
+
+List (список) абстрактные поля - имя, длина, язык абстрактные методы
+
+Пример 4
+
+Shape (геометрическая фигура) поля - название методы - узнать что-то про длину или периметр, узнать площадь
+
+Практика на сегодня:
+создать абстрактный класс Employee и определить в нем абстрактный метод calcSalary()
+
+создать дочерние классы Manager, SalesManager и Worker, реализовать в них методы начисления зарплаты:
+
+Manager: base + grade*hours
+SalesManager: salesValue * percent
+Worker: grade*hours
+в приложении EmployeeAppl нанять в компанию несколько сотрудников (до 10) и подсчитать общий годовой объем зарплаты.
+
+
+
+

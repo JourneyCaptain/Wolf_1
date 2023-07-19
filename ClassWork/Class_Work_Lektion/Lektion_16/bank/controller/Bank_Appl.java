@@ -1,6 +1,6 @@
 package Lektion_16.bank.controller;
 
-import bank.model.Bank_Account;
+import Lektion_16.bank.model.Bank_Account;
 
 public class Bank_Appl {
     public static void main(String[] args) {

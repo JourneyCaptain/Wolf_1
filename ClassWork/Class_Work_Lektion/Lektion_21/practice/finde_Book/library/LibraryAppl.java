@@ -1,7 +1,5 @@
 package Lektion_21.practice.finde_Book.library;
-
-import practice.finde_Book.models.Library;
-
+import Lektion_21.practice.finde_Book.models.Library;
 public class LibraryAppl {
     public static void main(String[] args) {
 

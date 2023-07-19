@@ -1,6 +1,6 @@
 package Lektion_18.practice;
 
-import practice.model.Computer;
+import Lektion_18.practice.model.Computer;
 
 public class ComputerCompareAppl {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package Lektion_15.book.controller;
 
-import L_15_Book.model.Book;
+import Lektion_15.book.model.Book;
 
 public class Book_Appl {
     public static void main(String[] args) {

@@ -1,9 +1,7 @@
 package Lektion_20.practice.library.models;
 
 // добавление, удаление, поиск книги
-
-import practice.library.Book;
-
+import Lektion_20.practice.library.Book;
 public class Library {
     private Book[] books; // массив типа Book, куда попадут все книги в библиотеке
     private int size; // количество книг в библиотеке

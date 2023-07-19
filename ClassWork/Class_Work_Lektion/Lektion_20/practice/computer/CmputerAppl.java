@@ -1,6 +1,6 @@
 package Lektion_20.practice.computer;
 
-import practice.computer.model.Computer;
+import Lektion_20.practice.computer.model.Computer;
 
 public class CmputerAppl {
     public static void main(String[] args) {

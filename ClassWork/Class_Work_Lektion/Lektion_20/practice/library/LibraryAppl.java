@@ -1,6 +1,6 @@
 package Lektion_20.practice.library;
 
-import practice.library.models.Library;
+import Lektion_20.practice.library.models.Library;
 
 public class LibraryAppl {
     public static void main(String[] args) {

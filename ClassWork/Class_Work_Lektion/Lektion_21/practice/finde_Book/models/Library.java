@@ -2,7 +2,7 @@ package Lektion_21.practice.finde_Book.models;
 
 // добавление, удаление, поиск книги
 
-import practice.finde_Book.library.Book;
+import Lektion_21.practice.finde_Book.library.Book ;
 
 public class Library {
     private Book[] books; // массив типа Book, куда попадут все книги в библиотеке

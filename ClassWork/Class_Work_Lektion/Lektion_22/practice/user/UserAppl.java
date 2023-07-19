@@ -1,6 +1,6 @@
 package Lektion_22.practice.user;
 
-import practice.user.model.User;
+import Lektion_22.practice.user.model.User;
 
 public class UserAppl {
     public static void main(String[] args) {
