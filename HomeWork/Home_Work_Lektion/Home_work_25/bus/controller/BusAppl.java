@@ -7,9 +7,14 @@ public class BusAppl {
         System.out.println();
         Bus bus = new Bus("M36",150,30,15);
         bus.go(30);
+        bus.displayBus();
         bus.speedUp(10);
+        bus.displayBus();
         bus.speedDown(20);
-        bus.stop(0);
+        bus.displayBus();
+        bus.stop();
+        bus.displayBus();
+
 
         System.out.println();
 
@@ -17,7 +22,7 @@ public class BusAppl {
         bus1.go(40);
         bus1.speedUp(10);
         bus1.speedDown(20);
-        bus1.stop(0);
+        bus1.stop();
 
         System.out.println();
 
@@ -25,7 +30,7 @@ public class BusAppl {
         bus2.go(35);
         bus2.speedUp(10);
         bus2.speedDown(20);
-        bus2.stop(0);
+        bus2.stop();
 
 
     }

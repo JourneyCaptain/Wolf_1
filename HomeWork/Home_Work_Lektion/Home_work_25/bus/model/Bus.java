@@ -51,11 +51,12 @@ public class Bus {
 
      }
      public void go (int goSpeed) {
-
-          System.out.println("Bus number " + routeNumber + " started on the route " + goSpeed + " km/h." );
+           routeSpeed = goSpeed;
+          System.out.println("Bus number " + routeNumber + " started on the route " + routeSpeed + " km/h." );
      }
-     public void stop (int stopSpeed) {
-          System.out.println("Bus number " + routeNumber + " stopped " + stopSpeed + " km/h." );
+     public void stop () {
+          routeSpeed = 0;
+          System.out.println("Bus number " + routeNumber + " stopped " + routeSpeed + " km/h." );
      }
      public void speedUp (int maxSpeed){
            routeSpeed = routeSpeed + maxSpeed;
@@ -64,6 +65,10 @@ public class Bus {
      public void speedDown (int minSpeed) {
           routeSpeed = routeSpeed - minSpeed;
           System.out.println("Bus number " + routeNumber + " reduced the speed to " + routeSpeed + " km/h." );
+     }
+     public void displayBus (){
+          System.out.println("Route " + routeNumber + " Speed: " + routeSpeed);
+
      }
 
 }
