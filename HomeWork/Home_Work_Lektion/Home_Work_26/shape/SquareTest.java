@@ -17,7 +17,9 @@ class SquareTest {
     void calcArea() {
         double expectedArea = 5 * 5; // Ожидаемая площадь квадрата
         double actualArea = square.calcArea(); // Вычисленная площадь квадрата
-        assertTrue(expectedArea == actualArea);
+        assertTrue(expectedArea == actualArea); // - Это утверждение проверяет,
+        // что значения expectedArea и actualArea равны.
+        // Если они равны, тест проходит, иначе тест проваливается.
     }
 
     @Test

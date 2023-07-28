@@ -6,11 +6,7 @@ public class Circle extends Shape {
         this.side = radius;
     }
 
-    public Circle() {
 
-    }
-
-    @Override
     public double calcArea() {
         return Math.PI * side * side;
     }

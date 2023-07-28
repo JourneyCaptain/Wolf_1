@@ -11,21 +11,21 @@ class CircleTest {
 
     @BeforeEach
     void setUp() {
-        circle = new Circle();
+        circle = new Circle(10);
     }
 
     @Test
     void calcArea() {
-        Circle circle = new Circle(10);
         double expectedArea = Math.PI * 10 * 10;
+        //assertEquals(314.15926535897932,circle.calcArea());
         double actualArea = circle.calcArea();
         assertTrue(expectedArea == actualArea);
     }
 
     @Test
     void calcPerimeter() {
-        Circle circle = new Circle(10);
         double expectedPerimeter = 2 * Math.PI * 10;
+       // assertEquals(62.83185307179586,circle.calcPerimeter());
         double actualPerimeter = circle.calcPerimeter();
         assertTrue(expectedPerimeter == actualPerimeter);
     }
